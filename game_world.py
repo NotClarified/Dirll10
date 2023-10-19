@@ -20,7 +20,6 @@ def rander():
         for o in layer:
             o.draw() # draw와 rander는 같은 의미, 앞에서 draw로 작성하여 draw로 표현
 
-
 #객체 삭제
 def remove_object(o):
     for layer in objects:
